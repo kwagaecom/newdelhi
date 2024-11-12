@@ -1,0 +1,1786 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>MaxiBiz Bootstrap Business Template</title>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <meta content="" name="keywords">
+  <meta content="" name="description">
+
+  <!-- Favicons -->
+  <link href="img/favicon.png" rel="icon">
+  <link href="img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Ruda:400,900,700" rel="stylesheet">
+
+  <!-- Bootstrap CSS File -->
+  <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Libraries CSS Files -->
+  <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+  <link href="lib/prettyphoto/css/prettyphoto.css" rel="stylesheet">
+  <link href="lib/hover/hoverex-all.css" rel="stylesheet">
+  <link href="lib/jetmenu/jetmenu.css" rel="stylesheet">
+  <link href="lib/owl-carousel/owl-carousel.css" rel="stylesheet">
+
+  <!-- Main Stylesheet File -->
+  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="css/colors/blue.css">
+
+  <!-- =======================================================
+    Template Name: MaxiBiz
+    Template URL: https://templatemag.com/maxibiz-bootstrap-business-template/
+    Author: TemplateMag.com
+    License: https://templatemag.com/license/
+  ======================================================= -->
+</head>
+
+<body>
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css">
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+.social-share {
+  position: fixed;
+  left: 20px;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 9999;
+}
+
+.social-share a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s ease-in-out;
+}
+
+.social-share a:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.social-share a svg {
+  width: 20px;
+  height: 20px;
+  fill: #555;
+  vertical-align: middle;
+}
+
+.social-share a.facebook svg {
+  fill: #3b5998;
+}
+
+.social-share a.whatsapp svg {
+  fill: #25d366;
+}
+
+.social-share a.pinterest svg {
+  fill: #bd081c;
+}
+
+.social-share a.linkedin svg {
+  fill: #0077b5;
+}
+
+@media only screen and (max-width: 600px) {
+  .social-share {
+    display: none;
+  }
+}
+
+/* Media Queries Shift Media Solutions| SMS */
+
+@media only screen and (max-width: 1080px) {
+  .body {
+    width: 100%;
+    overflow: auto;
+  }
+}
+
+  </style>
+
+
+  <div class="social-share">
+
+    <a href="#" class="facebook"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M20.05,0H3.95A3.952,3.952,0,0,0,0,3.95V20.05A3.952,3.952,0,0,0,3.95,24H12.63V14.71H9.62v-3H12.63v-1.5c0-3.6,2.2-5.55,5.38-5.55a28.475,28.475,0,0,1,3.18.16v3L18.79,9c-1.7,0-2,.81-2,1.95v1.5h4.05l-.53,3.05H16.8V24H20.05A3.952,3.952,0,0,0,24,20.05V3.95A3.952,3.952,0,0,0,20.05,0Z" />
+      </svg>
+    </a>
+
+    <a href="#" class="whatsapp"><svg viewBox="0 0 64 64">
+        <path d="M6.9,48.4c-0.4,1.5-0.8,3.3-1.3,5.2c-0.7,2.9,1.9,5.6,4.8,4.8l5.1-1.3c1.7-0.4,3.5-0.2,5.1,0.5 c4.7,2.1,10,3,15.6,2.1c12.3-1.9,22-11.9,23.5-24.2C62,17.3,46.7,2,28.5,4.2C16.2,5.7,6.2,15.5,4.3,27.8c-0.8,5.6,0,10.9,2.1,15.6 C7.1,44.9,7.3,46.7,6.9,48.4z M21.3,19.8c0.6-0.5,1.4-0.9,1.8-0.9s2.3-0.2,2.9,1.2c0.6,1.4,2,4.7,2.1,5.1c0.2,0.3,0.3,0.7,0.1,1.2 c-0.2,0.5-0.3,0.7-0.7,1.1c-0.3,0.4-0.7,0.9-1,1.2c-0.3,0.3-0.7,0.7-0.3,1.4c0.4,0.7,1.8,2.9,3.8,4.7c2.6,2.3,4.9,3,5.5,3.4 c0.7,0.3,1.1,0.3,1.5-0.2c0.4-0.5,1.7-2,2.2-2.7c0.5-0.7,0.9-0.6,1.6-0.3c0.6,0.2,4,1.9,4.7,2.2c0.7,0.3,1.1,0.5,1.3,0.8 c0.2,0.3,0.2,1.7-0.4,3.2c-0.6,1.6-2.1,3.1-3.2,3.5c-1.3,0.5-2.8,0.7-9.3-1.9c-7-2.8-11.8-9.8-12.1-10.3c-0.3-0.5-2.8-3.7-2.8-7.1 C18.9,22.1,20.7,20.4,21.3,19.8z"></path>
+      </svg></a>
+
+    <a href="#" class="pinterest"><svg viewBox="0 0 64 64">
+        <path d="M14.4,53.8c2.4,2,6.1,0.6,6.8-2.4l0-0.1c0.4-1.8,2.4-10.2,3.2-13.7c0.2-0.9,0.2-1.8-0.1-2.7 C24.2,34,24,32.8,24,31.5c0-4.1,2.4-7.2,5.4-7.2c2.5,0,3.8,1.9,3.8,4.2c0,2.6-1.6,6.4-2.5,9.9c-0.7,3,1.5,5.4,4.4,5.4 c5.3,0,8.9-6.8,8.9-14.9c0-6.1-4.1-10.7-11.6-10.7c-8.5,0-13.8,6.3-13.8,13.4c0,2.4,0.7,4.2,1.8,5.5c0.5,0.6,0.6,0.9,0.4,1.6 c-0.1,0.5-0.4,1.8-0.6,2.2c-0.2,0.7-0.8,1-1.4,0.7c-3.9-1.6-5.7-5.9-5.7-10.7c0-8,6.7-17.5,20-17.5c10.7,0,17.7,7.7,17.7,16 c0,11-6.1,19.2-15.1,19.2c-1.9,0-3.8-0.7-5.2-1.6c-0.9-0.6-2.1-0.1-2.4,0.9c-0.5,1.9-1.1,4.3-1.3,4.9c-0.1,0.5-0.3,0.9-0.4,1.4 c-1,2.7,0.9,5.5,3.7,5.7c2.1,0.1,4.2,0,6.3-0.3c12.4-2,22.1-12.2,23.4-24.7C61.5,18.1,48.4,4,32,4C16.5,4,4,16.5,4,32 C4,40.8,8.1,48.6,14.4,53.8z"></path>
+      </svg></a>
+
+    <a href="#" class="linkedin"><svg viewBox="0 0 64 64">
+        <path d="M8,54.7C8,55.4,8.6,56,9.3,56h9.3c0.7,0,1.3-0.6,1.3-1.3V23.9c0-0.7-0.6-1.3-1.3-1.3H9.3 c-0.7,0-1.3,0.6-1.3,1.3V54.7z"></path>
+        <path d="M46.6,22.3c-4.5,0-7.7,1.8-9.4,3.7c-0.4,0.4-1.1,0.1-1.1-0.5l0-1.6c0-0.7-0.6-1.3-1.3-1.3h-9.4 c-0.7,0-1.3,0.6-1.3,1.3c0.1,5.7,0,25.4,0,30.7c0,0.7,0.6,1.3,1.3,1.3h9.5c0.7,0,1.3-0.6,1.3-1.3V37.9c0-1,0-2,0.3-2.7 c0.8-2,2.6-4.1,5.7-4.1c4.1,0,6,3.1,6,7.6v15.9c0,0.7,0.6,1.3,1.3,1.3h9.3c0.7,0,1.3-0.6,1.3-1.3V37.4C60,27.1,54.1,22.3,46.6,22.3 z"></path>
+        <path d="M13.9,18.9L13.9,18.9c3.8,0,6.1-2.4,6.1-5.4C19.9,10.3,17.7,8,14,8c-3.7,0-6,2.3-6,5.4 C8,16.5,10.3,18.9,13.9,18.9z"></path>
+      </svg></a>
+
+  </div>
+  
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="script.js">
+var socialShareButtons = document.querySelectorAll(".social-share a");
+
+function shareOnFacebook() {
+  var title = document.title;
+  var url = window.location.href;
+  var shareUrl =
+    "https://www.facebook.com/?u=" +
+    encodeURIComponent(url) +
+    "&t=" +
+    encodeURIComponent(title);
+  window.open(
+    shareUrl,
+    "",
+    "menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600"
+  );
+}
+
+function shareOnWhatsApp() {
+  var title = document.title;
+  var url = window.location.href;
+  var shareUrl = "https://wa.me/?text=" + encodeURIComponent(title + " " + url);
+  window.open(
+    shareUrl,
+    "",
+    "menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600"
+  );
+}
+
+function shareOnPinterest() {
+  var title = document.title;
+  var url = window.location.href;
+  var shareUrl =
+    "https://www.pinterest.com/pin/create/button/?url=" +
+    encodeURIComponent(url) +
+    "&media=&description=" +
+    encodeURIComponent(title);
+  window.open(
+    shareUrl,
+    "",
+    "menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600"
+  );
+}
+
+function shareOnLinkedIn() {
+  var title = document.title;
+  var url = window.location.href;
+  var shareUrl =
+    "https://www.linkedin.com/sharing/share-offsite/?url=" +
+    encodeURIComponent(url) +
+    "&title=" +
+    encodeURIComponent(title);
+  window.open(
+    shareUrl,
+    "",
+    "menubar=no,toolbar=no,resizable=yes,scrollbars=yes,height=300,width=600"
+  );
+}
+
+socialShareButtons.forEach(function (button) {
+  button.addEventListener("click", function (event) {
+    event.preventDefault();
+    var shareType = this.classList[0];
+    switch (shareType) {
+      case "facebook":
+        shareOnFacebook();
+        break;
+      case "whatsapp":
+        shareOnWhatsApp();
+        break;
+      case "pinterest":
+        shareOnPinterest();
+        break;
+      case "linkedin":
+        shareOnLinkedIn();
+        break;
+    }
+  });
+});
+
+  </script>
+        
+  <!-- end topbar -->
+ <style>
+    body {
+      margin: 15px;
+    }
+
+    .dropdown-menu > ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    .dropdown-menu > ul > li > a {
+      display: block;
+      padding: 3px 20px;
+      clear: both;
+      font-weight: 400;
+      color: #333;
+      white-space: nowrap;
+    }
+
+    @media(min-width:992px) {
+      .nav > li {
+        position: initial;
+      }
+      .open > .dropdown-menu {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        margin: 60px 0 0 0;
+      }
+      .dropdown-menu > ul {
+        float: left;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        flex-grow: 1;
+      }
+      .dropdown-menu > ul + ul {
+        border-left: 1px solid #e5e5e5;
+      }
+    }
+
+    @media (max-width: 991px) {
+      .navbar-header {
+        float: none;
+      }
+      .navbar-left,
+      .navbar-right {
+        float: none !important;
+      }
+      .navbar-toggle {
+        display: block;
+      }
+      .navbar-collapse {
+        border-top: 1px solid transparent;
+        box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.1);
+      }
+      .navbar-fixed-top {
+        top: 0;
+        border-width: 0 0 1px;
+      }
+      .navbar-collapse.collapse {
+        display: none!important;
+      }
+      .navbar-nav {
+        float: none!important;
+        margin-top: 7.5px;
+      }
+      .navbar-nav > li {
+        float: none;
+      }
+      .navbar-nav > li > a {
+        padding-top: 10px;
+        padding-bottom: 10px;
+      }
+      .collapse.in {
+        display: block !important;
+      }
+      .dropdown-menu {
+        position: relative;
+        width: 100%;
+        float: left;
+      }
+      .navbar-nav .open .dropdown-menu {
+        position: static;
+        float: none;
+        width: auto;
+        margin-top: 0;
+        background-color: transparent;
+        border: 0;
+        box-shadow: none;
+      }
+    }
+.nav-item.active {
+    color: #fff; /* White text */
+    background: linear-gradient(45deg, #ff0000, #00ff00, #0000ff); /* Gradient background */
+    padding: 1px;
+    border-radius: 1px;
+}
+
+
+  </style>
+
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+      <a class="navbar-brand" class="nav-item active" href="#">Kwaga Ltd</a>
+      </div>
+      <div class="collapse navbar-collapse" id="navbar-collapse">
+        <ul class="nav navbar-nav">
+          <li><a href="about 2.html">About Us <span class="sr-only">(current)</span></a></li>
+          <li><a href="#">Portfolio</a></li>
+          
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+            <div class="dropdown-menu">
+              <ul>
+                <li><a href="#">Design</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Logo Design</a></li>
+                <li><a href="#">Card Design</a></li>
+                <li><a href="#">Brouchure Design</a></li>
+                <li><a href="#">Pamplet Design</a></li>
+                <li><a href="#">Handbill Design</a></li>
+                <li><a href="#">Catlogue Design</a></li>
+                <li><a href="#">Flex banner Design</a></li>
+                <li><a href="#">Bill book Design</a></li>
+                <li><a href="#">Latherhead Design</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Graphic Design</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Email Signature</a></li>
+                <li><a href="#">Social Media Cover Page Design</a></li>
+                <li><a href="#">Domain Based Email Creation</a></li>
+                <li><a href="#">Other Email Creation</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Advertisement Page</a></li>
+                <li><a href="#">Landing Page Design</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Removing Background Passport Size Photo</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Interior Design</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Another action</a></li>
+                <li><a href="#">Something else here</a></li>
+                <li role="separator" class="divider"></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">One more separated link</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Digital Marketing</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Video & Editing </a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">SE0</a></li>
+                <li><a href="#">SEM</a></li>
+                <li><a href="#">SMM</a></li>
+                <li role="separator" class="divider"></li>
+                 <li><a href="#">Content Creation</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Website Developement</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">CMS</a></li>
+                <li><a href="#">FrameWork</a></li>
+                <li><a href="#">Blogger</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Website Maintainenece</a></li>
+                <li><a href="#">Website Reconstrunction</a></li>
+                <li role="separator" class="divider"></li>
+              
+              
+              </ul>
+            </div>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Software Products <span class="caret"></span></a>
+            <div class="dropdown-menu">
+              <ul>
+                <li><a href="#">Software</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Billing Software</a></li>
+                <li><a href="#">School Software</a></li>
+                 <li><a href="#">Retail Software</a></li>
+                <li><a href="#">Currior Software</a></li>
+                <li><a href="#">Office Software</a></li>
+                <li><a href="#">Showroom Software</a></li>
+              </ul>
+              <ul>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Pharmacy Software</a></li>
+                <li><a href="#">Hospital Software</a></li>
+                <li><a href="#">SuperMarket Software</a></li>
+                <li><a href="#">IVR Software</a></li>
+                <li><a href="#">HRM Software</a></li>
+                <li><a href="#">MLM Software</a></li>
+                <li><a href="#">Instiute Software</a></li>
+              </ul>
+            </div>
+          </li>
+<li><a href="#">Career</a></li>
+<li><a href="#">FAQ</a></li>
+<li><a href="#">Contact</a></li>
+ <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Techonology <span class="caret"></span></a>
+            <div class="dropdown-menu">
+              <ul>
+                <li><a href="#">Larvel</a></li>
+                <li><a href="#">React</a></li>
+                <li><a href="#">Angular</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Node</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Jquery</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Bootstrap</a></li>
+                <li><a href="#">Python</a></li>
+                <li><a href="#">Dotnet</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Talwind</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">CSS3</a></li>
+              </ul>
+            </div>
+          </li>
+    <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Paid Advertisement <span class="caret"></span></a>
+            <div class="dropdown-menu">
+              <ul>
+                <li><a href="#">Google</a></li>
+                <li><a href="#">Youtube</a></li>
+                <li><a href="#">Linkdin</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">FaceBook</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Jquery</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Bootstrap</a></li>
+                <li><a href="#">Python</a></li>
+                <li><a href="#">Dotnet</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Talwind</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">CSS3</a></li>
+              </ul>
+            </div>
+          </li>
+  <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Download <span class="caret"></span></a>
+            <div class="dropdown-menu">
+              <ul>
+                <li><a href="#">Google</a></li>
+                <li><a href="#">Youtube</a></li>
+                <li><a href="#">Linkdin</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">FaceBook</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Jquery</a></li>
+              </ul>
+              <ul>
+                <li><a href="#">Bootstrap</a></li>
+                <li><a href="#">Python</a></li>
+                <li><a href="#">Dotnet</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">Talwind</a></li>
+                <li role="separator" class="divider"></li>
+                <li><a href="#">CSS3</a></li>
+              </ul>
+            </div>
+          </li>
+        </ul>
+        </ul>
+ 
+<!--<ul class="nav navbar-nav navbar-right">
+          
+           <li> <a class="btn btn-outline-dark mr-2 btn-sm" data-toggle="modal" data-target="#loginModal"
+          href="">Log in</a></li>
+           <li><a class="btn btn-dark btn-sm" data-toggle="modal" data-target="#createModal" href="">Create</a></li>
+          
+      </ul>-->
+      </div>
+    </div>
+  </nav>
+
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <script>
+    $(document).ready(function(){
+      $('.dropdown-toggle').click(function(){
+        var $dropdown = $(this).next('.dropdown-menu');
+        $('.dropdown-menu').not($dropdown).slideUp();  // Close all other dropdowns
+        $dropdown.slideToggle();  // Toggle the clicked dropdown
+      });
+
+      $(document).click(function(event) {
+        if (!$(event.target).closest('.dropdown').length) {
+          $('.dropdown-menu').slideUp();  // Close dropdowns if clicking outside
+        }
+      });
+    });
+  </script>
+  <!-- end header -->
+
+<style>
+      .elementor-background-slideshow {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    direction: rtl; /* Right-to-left direction */
+}
+
+/* Swiper wrapper that contains all slides */
+.swiper-wrapper {
+    display: flex;
+    flex-direction: column; /* Vertical direction */
+    height: 100%;
+    transition-property: transform;
+    transition-timing-function: ease;
+    transition-duration: 0.3s; /* Smooth transition duration */
+}
+
+/* Each slide within the Swiper */
+.elementor-background-slideshow__slide {
+    flex: 1 0 100%; /* Each slide takes full height */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-size: 105%; /* Ensure the background image covers the entire slide */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent background image repetition */
+    position: relative; /* Allows for positioning of text or other content */
+}
+
+/* Adjust text alignment for elements inside slides */
+.elementor-background-slideshow__slide .left-aligned-text {
+    text-align: left; /* Align text to the left */
+    position: absolute; /* Positioning text within the slide */
+    left: 20px; /* Adjust as needed for your design */
+    top: 20px; /* Adjust as needed for your design */
+    color: white; /* Example text color */
+
+}
+
+/* Accessibility: visually hide the notification span */
+.swiper-notification {
+    position: absolute;
+    left: -9999px;
+    width: 1px;
+    height: 1px;
+
+    overflow: hidden;
+}
+    </style>
+<div class="elementor-background-slideshow swiper-container" dir="rtl">
+    <div class="swiper-wrapper">
+        <div class="elementor-background-slideshow__slide swiper-slide" style="background-image: url('https://d2designs.in/wp-content/uploads/2023/05/tshirt-scaled.jpg');"></div>
+        <div class="elementor-background-slideshow__slide swiper-slide" style="background-image: url('https://d2designs.in/wp-content/uploads/2023/05/signage-1-1-scaled.jpg');"></div>
+        <div class="elementor-background-slideshow__slide swiper-slide" style="background-image: url('https://d2designs.in/wp-content/uploads/2023/05/digital-marketing-scaled.jpg');"></div>
+    </div>
+    <span class="swiper-notification" aria-live="assertive" aria-atomic="true"></span>
+</div>
+<!-- Swiper CSS -->
+<link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+
+<!-- Swiper JS -->
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+    const swiper = new Swiper('.swiper-container', {
+        direction: 'vertical',
+        loop: true,
+        autoplay: {
+            delay: 3000,
+            disableOnInteraction: false,
+        },
+        speed: 600,
+        slidesPerView: 1,
+        spaceBetween: 0,
+        pagination: {
+            el: '.swiper-pagination',
+            clickable: true,
+        },
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
+        },
+    });
+});
+</script>
+
+  <!-- end post-wrapper-top -->
+
+ 
+                <style>
+.gallery-block.grid-gallery{
+  padding-bottom: 60px;
+  padding-top: 60px;
+}
+
+.gallery-block.grid-gallery .heading{
+    margin-bottom: 50px;
+    text-align: center;
+}
+
+.gallery-block.grid-gallery .heading h2{
+    font-weight: bold;
+    font-size: 1.4rem;
+    text-transform: uppercase;
+}
+
+.gallery-block.grid-gallery a:hover{
+  opacity: 0.8;
+}
+
+.gallery-block.grid-gallery .item img{
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.15);
+  transition: 0.4s;
+}
+
+.gallery-block.grid-gallery .item{
+  margin-bottom: 20px;
+}
+
+@media (min-width: 576px) {
+
+  .gallery-block.grid-gallery .scale-on-hover:hover{
+    transform: scale(1.05);
+    box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.15) !important;
+  }
+}
+
+img {
+	// -webkit-filter: sepia(0.7);
+	-webkit-filter: hue-rotate(210deg) saturate(10);
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* adjust opacity as needed */
+    color: white;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item:hover .overlay {
+    opacity: 1;
+}
+.photo-frame {
+    display: flex;
+    justify-content: space-between;
+    width: 600px; /* Adjust width as needed */
+    margin: 50px auto; /* Adjust margin as needed */
+}
+
+.photo-frame img {
+    max-width: 100%;
+    height: auto;
+}
+
+.with-background {
+    width: 45%; /* Adjust width as needed */
+    background-color: #ebebeb; /* Background color for the frame */
+    padding: 10px; /* Adjust padding as needed */
+    border: 5px solid #ccc; /* Border for the frame */
+}
+
+.without-background {
+    width: 45%; /* Adjust width as needed */
+    padding: 10px; /* Adjust padding as needed */
+    border: 5px solid #ccc; /* Border for the frame */
+}
+
+</style>
+<section class="section5">
+        <div class="tabbable servicetab tabs-left">
+          <ul class="nav nav-tabs"> 
+            <li class="active"><a href="services.html#removepassport" data-toggle="tab"><i class="fa fa-file-text-o"></i> Removing Background Passport Size Photo</a></li>
+          </ul>
+          <div class="tab-content">
+            <div class="tab-pane" id="logodesign">
+              <h5 class="title"><i class="fa fa-picture-o"></i> Logo Design Services</h5>
+              <div class="row">
+
+<section class="gallery-block grid-gallery">
+	<div class="container">
+		<div class="heading">
+			<h2>Gallery</h2>
+		</div>
+		<div class="row">
+<div class="col-md-6 col-lg-4 item">
+				<a class="lightbox" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUuMQZ4ITFngwPL52siSZtmK2FhDmff3eMau5mKBcSTXQ3VWDt7FCAYJlwHcqPSyGMnyiAkzrwYgliMa7dMzeiRj4rFyTjjxwcRxKihybAi21Sxc89jOKrFTbepHMMKVn5qLEbmzSO1Au1JNuEizxKGq4uFu7HiuveYSgknvTWlNuBrPFOPUsV55Xu3YE/s320/logo1-removebg-preview.png">
+        	<img class="img-fluid image scale-on-hover" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjUuMQZ4ITFngwPL52siSZtmK2FhDmff3eMau5mKBcSTXQ3VWDt7FCAYJlwHcqPSyGMnyiAkzrwYgliMa7dMzeiRj4rFyTjjxwcRxKihybAi21Sxc89jOKrFTbepHMMKVn5qLEbmzSO1Au1JNuEizxKGq4uFu7HiuveYSgknvTWlNuBrPFOPUsV55Xu3YE/s320/logo1-removebg-preview.png">
+        	<div class="overlay">
+                        <h3>SportsWear</h3>
+                    </div>
+        </a>
+			</div>
+			<div class="col-md-6 col-lg-4 item">
+				<a class="lightbox" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCCnP9N8Lh575xrchrwZbidkzN7X_x9k9aDUB9dQfoRGRjz3kl2goMvaiuYWtkDpRqaPnjDjuK9Lbu7HGDY9GgOq7-pxGhYxzPmcxp37IdBKUtG_Pmxr92xGVmiYdPmK0w6VtERkD01a9noLPKTS8o9ltpmFlHJoxzCzwn2jX0Tv_1pDWpiuTllbz44Ps/s320/logo2-removebg-preview.png">
+        	<img class="img-fluid image scale-on-hover" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCCnP9N8Lh575xrchrwZbidkzN7X_x9k9aDUB9dQfoRGRjz3kl2goMvaiuYWtkDpRqaPnjDjuK9Lbu7HGDY9GgOq7-pxGhYxzPmcxp37IdBKUtG_Pmxr92xGVmiYdPmK0w6VtERkD01a9noLPKTS8o9ltpmFlHJoxzCzwn2jX0Tv_1pDWpiuTllbz44Ps/s320/logo2-removebg-preview.png">
+        	<div class="overlay">
+                        <h3>Education</h3>
+                    </div>
+        </a>
+			</div>
+			<div class="col-md-6 col-lg-4 item">
+				<a class="lightbox" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKhjTm_sRnEbuIx6mo1tIuP0hLEHAuFmCmoHgHHwUUcaA0kOIw4Tc0K8U_8qqjcdid3LWGRUPGjbbJunyshA0cHv1YSKOm-ZnmpcE5mDx4MXDxAOou5LYY94ApreD3ZTbd6tkBDmJrJ9Np9ythI2ggtZZudK_rWjsBrIHzmzjMG1ENKAIFIzKYNszj8HXR/s320/logo3_health-removebg-preview%20(1).png">
+        	<img class="img-fluid image scale-on-hover" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgKhjTm_sRnEbuIx6mo1tIuP0hLEHAuFmCmoHgHHwUUcaA0kOIw4Tc0K8U_8qqjcdid3LWGRUPGjbbJunyshA0cHv1YSKOm-ZnmpcE5mDx4MXDxAOou5LYY94ApreD3ZTbd6tkBDmJrJ9Np9ythI2ggtZZudK_rWjsBrIHzmzjMG1ENKAIFIzKYNszj8HXR/s320/logo3_health-removebg-preview%20(1).png">
+        	<div class="overlay">
+                        <h3>Health</h3>
+                    </div>
+        </a>
+			</div>
+			<div class="col-md-6 col-lg-4 item">
+				<a class="lightbox" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9k86zbQk8KGrpfDIiUMyegNzXMJK8yufRkcovBGFVc-PzY8hqA2xGInWo-9s0TxsT2vsr3EMpodDkUk6pFLdbR6nCCu8cXo50v717lfHV4y5rlWWtROtkyGdJhZ7VZWM8-K6_KavZVNlRpurSjc0PZxCU0BSBKe5ZAjHjEOLRCNrMp9XtDe9oSBTEsR3k/s320/logo4_tech-removebg-preview.png">
+        	<img class="img-fluid image scale-on-hover" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj9k86zbQk8KGrpfDIiUMyegNzXMJK8yufRkcovBGFVc-PzY8hqA2xGInWo-9s0TxsT2vsr3EMpodDkUk6pFLdbR6nCCu8cXo50v717lfHV4y5rlWWtROtkyGdJhZ7VZWM8-K6_KavZVNlRpurSjc0PZxCU0BSBKe5ZAjHjEOLRCNrMp9XtDe9oSBTEsR3k/s320/logo4_tech-removebg-preview.png">
+        	<div class="overlay">
+                        <h3>Technology</h3>
+                    </div>
+        </a>
+			</div>
+			<div class="col-md-6 col-lg-4 item">
+				<a class="lightbox" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjThm-U7jPr5ruTT6WqzvhaQat5v0IW7lcYhyphenhyphenFLDofTomQuKdYlBqOScWc8S6M_BLE5scno9THpgasPFNX2yYyvXumpYSvD0e2VOis0VYVXU_Vbq0mWyjF7x8euETA9UEP6RsL94E_PIhD4W0G8tqn9frRKHf2WGTmjhloN53S9QGDz_-8y8cYPBamLJ0Oe/s320/logo5colledge-removebg-preview.png">
+					<img class="img-fluid image scale-on-hover" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjThm-U7jPr5ruTT6WqzvhaQat5v0IW7lcYhyphenhyphenFLDofTomQuKdYlBqOScWc8S6M_BLE5scno9THpgasPFNX2yYyvXumpYSvD0e2VOis0VYVXU_Vbq0mWyjF7x8euETA9UEP6RsL94E_PIhD4W0G8tqn9frRKHf2WGTmjhloN53S9QGDz_-8y8cYPBamLJ0Oe/s320/logo5colledge-removebg-preview.png">
+					<div class="overlay">
+                        <h3>College</h3>
+                    </div>
+        </a>
+			</div>
+			<div class="col-md-6 col-lg-4 item">
+				<a class="lightbox" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrzHm-vpl7GbAkj3PUh1KIvLC0VhIEeyMCs8GNG4zf70R7IgJSVFP4kXFY-1-Sf3Xs-YN1o_ccpiCWiwfLWCPdvzZVvZzNgIBYiQVLm-EfPM27MQ8kZr6eiTmS0Z97Y-CB5iBgt6868qkT2sm49GrMqtpCtJuOiVC44ComsX6S-g46HwQg5dNBdwU3WbHA/s320/logo7Consol-removebg-preview%20(1).png">
+        	<img class="img-fluid image scale-on-hover" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgrzHm-vpl7GbAkj3PUh1KIvLC0VhIEeyMCs8GNG4zf70R7IgJSVFP4kXFY-1-Sf3Xs-YN1o_ccpiCWiwfLWCPdvzZVvZzNgIBYiQVLm-EfPM27MQ8kZr6eiTmS0Z97Y-CB5iBgt6868qkT2sm49GrMqtpCtJuOiVC44ComsX6S-g46HwQg5dNBdwU3WbHA/s320/logo7Consol-removebg-preview%20(1).png">
+        	<div class="overlay">
+                        <h3>Consultancy Services</h3>
+                    </div>
+        </a>
+			</div>
+			<div class="col-md-6 col-lg-4 item">
+				<a class="lightbox" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEJaVoBrFUqjuI6AYl1Dn7J8_jYln821Jb9WRbrP5858AWZwB0vYgUNJywV-w6CVBv2HXE2DThjpggdk_ioJ-bEs8MXzWnZYOtU69hj4wHd7o6AjSEv5HP14HpsyNY_66GpcDFP1HCNu6oWKdWpeMX_XH-wQmq3TmhrpCEjc7iQu9BrXzTtfd9Ieh-o-oZ/s320/logo8-removebg-preview.png">
+        	<img class="img-fluid image scale-on-hover" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiEJaVoBrFUqjuI6AYl1Dn7J8_jYln821Jb9WRbrP5858AWZwB0vYgUNJywV-w6CVBv2HXE2DThjpggdk_ioJ-bEs8MXzWnZYOtU69hj4wHd7o6AjSEv5HP14HpsyNY_66GpcDFP1HCNu6oWKdWpeMX_XH-wQmq3TmhrpCEjc7iQu9BrXzTtfd9Ieh-o-oZ/s320/logo8-removebg-preview.png">
+        	<div class="overlay">
+                        <h3>Cleaning Services</h3>
+                    </div>
+        </a>
+			</div>
+			<div class="col-md-6 col-lg-4 item">
+				<a class="lightbox" href="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRnNo9zn-pvFYWUzHQPoYsRgbxskUKNQUdsFaibq1uxlNzEIvhIRpXlELcoWI87HYSME87WJOgUN24Po1RNV9wEsvhDvfgJ701sjQ3ODro4nH_l2u21gRoc0YUryiDLfhYXIf8NLh6hL_OOmgTmGt7-Z9T60b4zcHVBfGtLt7eZTn2qaG4RGpLnNeV547u/s320/logo9-removebg-preview.png">
+        	<img class="img-fluid image scale-on-hover" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRnNo9zn-pvFYWUzHQPoYsRgbxskUKNQUdsFaibq1uxlNzEIvhIRpXlELcoWI87HYSME87WJOgUN24Po1RNV9wEsvhDvfgJ701sjQ3ODro4nH_l2u21gRoc0YUryiDLfhYXIf8NLh6hL_OOmgTmGt7-Z9T60b4zcHVBfGtLt7eZTn2qaG4RGpLnNeV547u/s320/logo9-removebg-preview.png">
+        	<div class="overlay">
+                        <h3>Music</h3>
+                    </div>
+        </a>
+			</div>
+			
+		</div>
+	</div>
+</section>
+<script>
+baguetteBox.run('.grid-gallery', {
+		animation: 'slideIn'
+	});
+	</script>
+
+              </div>
+            </div>
+           
+  
+
+
+
+ <div class="tab-pane active" id="removepassport">
+              <h5 class="title"><i class="fa fa-newspaper-o"></i> Removing Background Passport Size Photo Services</h5><li>
+                                                                  <div class="row">
+                                  <section class="gallery-block grid-gallery">
+	<div class="container">
+		<div class="heading">
+			<h2>Gallery</h2>
+		</div>
+		<div class="row">
+			<section class="section">
+        <div class="block">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgtxBisv_JA_4jGF5-JBXZbqAGSYEvz_wvMD-IBgdeu1rsTOWDEBtXJZWo6zpq-dHCk2SoYAmteQos0CmHthMoVLI-fZkWKS-YLmZw9vwROMEFFepBXYBpopr2fkR4sKw7uC4dDkBmKcVnjx-zRKzpRcQc-jxB8DYs7xvnw6hOS0BsO0QdXfcAHhGFioWzo/s320/identity%20card1.JPG" alt="Image 1">
+            <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhJ6hNhEDm68SoxvG8gHpGLyV9VO_dVoXBXqJkeMEjiY6OOEOsfVeB_b0sEptgD6tnffYYC-ngNnQrhl2ucYHoLcnH6RX_d6rKEVdNArDipQbofZlIclevVemq2iyaqerodOSUs8bguAha058LstAUVip1EF_-4LpJ3_VllibKB_ZbyCx1WOSZSClLm_uW3/s320/identity_card1-removebg-preview.png" alt="Image 2">
+        </div>
+    </section>
+			
+		</div>
+	</div>
+</section>
+<script>
+baguetteBox.run('.grid-gallery', {
+		animation: 'slideIn'
+	});
+	</script>
+              </div>
+            </div>
+
+<div class="clearfix"></div>
+
+     <section class="section4">
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="widget" data-effect="slide-bottom">
+            <h3 class="title"><i class="fa fa-laptop"></i> Graphic Design Service</h3>
+            <ul class="check">
+              <li><a href="#">5+ homepage style (check features menu)</a></li>
+              <li><a href="#">Compatible any eCommerce solutions</a></li>
+              <li><a href="#">Limitless color combinations</a></li>
+              <li><a href="#">Limitless page templates (15+ custom pages)</a></li>
+              <li><a href="#">100% responsive layout design</a></li>
+              <li><a href="#">Awesome slideshows for your contents</a></li>
+              <li><a href="#">Super awesome portfolio sections</a></li>
+              <li><a href="#">700+ custom font icons included</a></li>
+            </ul>
+          </div>
+          <!-- end widget -->
+        </div>
+        <!-- large-6 -->
+
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="widget" data-effect="slide-bottom">
+            <h3 class="title"><i class="fa fa-laptop"></i> Interior Design Service</h3>
+            <ul class="check">
+              <li><a href="#">5+ homepage style (check features menu)</a></li>
+              <li><a href="#">Compatible any eCommerce solutions</a></li>
+              <li><a href="#">Limitless color combinations</a></li>
+              <li><a href="#">Limitless page templates (15+ custom pages)</a></li>
+              <li><a href="#">100% responsive layout design</a></li>
+              <li><a href="#">Awesome slideshows for your contents</a></li>
+              <li><a href="#">Super awesome portfolio sections</a></li>
+              <li><a href="#">700+ custom font icons included</a></li>
+            </ul>
+          </div>
+          <!-- end widget -->
+        </div>
+        <!-- large-6 -->
+
+        <div class="col-lg-4 col-md-4 col-sm-12">
+          <div class="widget" data-effect="slide-right">
+            <h3 class="title"><i class="fa fa-cogs"></i> Web Development Service</h3>
+            <ul class="check">
+              <li><a href="#">Included custom slideshow plugins </a></li>
+              <li><a href="#">Compatible any eCommerce solutions</a></li>
+              <li><a href="#">Custom widgets and sidebar areas</a></li>
+              <li><a href="#">Retina display ready</a></li>
+              <li><a href="#">Modern and clean style!</a></li>
+              <li><a href="#">Professional support help and desk</a></li>
+              <li><a href="#">500+ Google fonts included (use very easy)</a></li>
+            </ul>
+          </div>
+          <!-- end widget -->
+        </div>
+        <!-- large-6 -->
+
+
+      </div>
+      <!-- end content -->
+    </div>
+    <!-- end container -->
+  </section>
+  <!-- end section -->
+
+  <section class="section3">
+    <style>
+    body {
+        font-family: Verdana, "Roboto", sans-serif, Monospace;
+        background: #e6d16b;
+        line-height: 1.5;
+    }
+    main {
+        max-width: 80%;
+        margin: 10px auto;
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // height: 200px;
+        border: 3px solid green;
+    }
+
+    .center_ii {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        // height: 200px;
+        background: #086cdf;
+        color: #fcfbfc;
+        border: 3px solid white;
+        padding: 10px;
+        // width: fit-content;
+        display: table;
+        margin: 0 auto;
+        -webkit-border-radius: 25px;
+        border-radius: 25px;
+    }
+
+    img {
+        max-width: 100%;
+    }
+
+    .container {
+        max-width: 900px;
+        margin: auto;
+    }
+    .title {
+        text-align: center;
+        font-family: Arial;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .accordion__item {
+        margin-bottom: 10px;
+    }
+    .accordion__item__header {
+        background-color: #cbeafe;
+        padding: 15px;
+        cursor: pointer;
+        position: relative;
+        color: #000;
+        font-family: Arial;
+        font-weight: 400;
+        font-size: 20px;
+    }
+    .accordion__item__header::before {
+        height: 15px;
+        width: 15px;
+        content: "";
+        position: absolute;
+        right: 15px;
+        top: 15px;
+        transition: 0.5s all;
+        transform: rotate(45deg);
+        border-right: 2px solid #000;
+        border-bottom: 2px solid #000;
+    }
+    .accordion__item__header.active {
+        background-color: #33a0ff;
+        color: #fff;
+        transition: 0.5s;
+    }
+    .accordion__item__header.active::before {
+        transform: rotate(-135deg);
+        top: 23px;
+        border-right: 2px solid #fff;
+        border-bottom: 2px solid #fff;
+    }
+    .accordion__item__content {
+        overflow-y: auto;
+        padding: 0;
+        display: none;
+    }
+
+    .testbtn {
+        border: 1px solid #99cc44 !important;
+        border-left: 5px solid #99cc44 !important;
+        border-right: 5px solid #99cc44 !important;
+        border-top: 5px solid #99cc44 !important;
+        border-bottom: 5px solid #99cc44 !important;
+        -webkit-border-radius: 25px;
+        border-radius: 25px;
+        margin-right: 10px;
+    }
+
+    /* Responsive layout - when the screen is less than 800px wide, make the two columns stack on top of each other instead of next to each other */
+    @media screen and (max-width: 800px) {
+        .testbtn {
+            width: 100%;
+            height: auto;
+            padding: 0 !important;
+            margin: 1px !important;
+            font-size: 18px;
+        }
+    }
+
+    .goog-tooltip {
+        display: none !important;
+    }
+    .goog-tooltip:hover {
+        display: none !important;
+    }
+    .goog-text-highlight {
+        background-color: transparent !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+
+    #goog-gt-tt,
+    .goog-te-balloon-frame {
+        display: none !important;
+    }
+    .goog-text-highlight {
+        background: none !important;
+        box-shadow: none !important;
+    }
+
+    .goog-logo-link {
+        display: none !important;
+    }
+    .goog-te-gadget {
+        height: 28px !important;
+        overflow: hidden;
+    }
+
+    body {
+        top: 0 !important;
+    }
+    .goog-te-banner-frame {
+        display: none !important;
+    }
+
+    #google_translate_element {
+        display: none;
+    }
+
+    .goog-te-balloon-frame {
+        display: none;
+    }
+
+    #google_translate_element {
+        width: 300px;
+        float: right;
+        text-align: right;
+        display: block;
+    }
+    .goog-te-banner-frame.skiptranslate {
+        display: none !important;
+    }
+    body {
+        top: 0px !important;
+    }
+    #goog-gt-tt {
+        display: none !important;
+        top: 0px !important;
+    }
+    .goog-tooltip skiptranslate {
+        display: none !important;
+        top: 0px !important;
+    }
+    .activity-root {
+        display: hide !important;
+    }
+    .status-message {
+        display: hide !important;
+    }
+    .started-activity-container {
+        display: hide !important;
+    }
+
+    .title {
+        color: #fdfdfe;
+        text-shadow: 0px 0px 5px #b393d3, 0px 0px 10px #b393d3, 0px 0px 10px #b393d3, 0px 0px 20px #b393d3;
+    }
+</style>
+
+<h2 style="text-align: center; background-color: Violet; color: black; padding-top: 10px; padding-bottom: 10px; font-size: 14px;">
+  
+</h2>
+
+<div id="zoom_wrapper" class="w3-animate-zoom">
+    <div class="w3-panel">
+        <h1 class="title" style="vertical-align: middle; margin-top: 10px; margin-bottom: 10px;">Frequently Asked Questions</h1>
+    </div>
+
+    <div id="translation" class="center_ii"></div>
+
+    <br />
+
+    <br />
+
+    <!-- <div class="w3-border"> -->
+    <div class="w3-bar w3-theme center">
+        <button class="w3-bar-item w3-button testbtn w3-padding-16" style="font-size: 24px;" onclick="openCategory(event,'Category1')">Category1</button>
+        <button class="w3-bar-item w3-button testbtn w3-padding-16" style="font-size: 24px;" onclick="openCategory(event,'Category2')">Category2</button>
+        <button class="w3-bar-item w3-button testbtn w3-padding-16" style="font-size: 24px;" onclick="openCategory(event,'Category3')">Category3</button>
+    </div>
+
+    <br />
+    <br />
+
+    <div id="Category1" class="w3-container category w3-animate-opacity">
+        <main>
+            <div class="container">
+                <div class="accordion">
+                    <div class="accordion__item">
+                        <div class="accordion__item__header">
+                            What is an FAQ page?
+                        </div>
+
+                        <div class="accordion__item__content">
+                            <p>Frequently Asked Questions (FAQ) pages contain a list of commonly asked questions and answers on a website about topics such as hours, shipping and handling, product information, and return policies.</p>
+                            <p>
+                                It’s no secret that the best companies put their customers first.
+                                <br />
+                                <br />
+                                95% of consumers believe that a good customer experience is important to brand loyalty. Providing a top-notch customer experience can be expensive, time-consuming, and complicated to put into practice.
+                                <br />
+                                <br />
+                                Sure there are chatbots, support lines, and customer reviews to help shoppers on their path to purchase, but there’s one forgotten customer service tactic that is cost-effective and streamlined. That tactic
+                                is an FAQ page.
+                                <br />
+                                <br />
+                                FAQ pages went out of style for a bit because companies viewed them as outdated and unattractive forms of communication. Now they are on most websites because they save time for both the customer and
+                                employees. It’s easy to get carried away with the design and content on the FAQ page. In this guide, you’ll learn all there is to know about crafting an effective FAQ page. Plus, get inspired with 30
+                                best-in-class examples.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion__item">
+                        <div class="accordion__item__header">
+                            Why you should make an FAQ page?
+                        </div>
+
+                        <div class="accordion__item__content">
+                            <p>An FAQ page is a time-saving customer service tactic that provides the most commonly asked questions and answers for current or potential customers.</p>
+                            <p>
+                                Before diving into how to make an FAQ page, you need to know why having one is so important. There are so many reasons beyond improving the customer experience for perfecting your FAQ page. Keep in mind the
+                                importance of an FAQ page when <a href="/articles/e-commerce-website" rel="noopener" target="_blank">developing your own e-commerce website</a> so you can make sure it increases sales and not the other way
+                                around.
+                            </p>
+                            <h3>Saves time</h3>
+                            <p>
+                                This reason might be the most obvious, but it’s a clear benefit of an FAQ page. Not only does the FAQ page save customers time, but it also saves employees time as well. Having an FAQ page ensures customers
+                                don’t have to sit on the phone for hours waiting for simple answers and employees don’t have to individually answer all questions.
+                            </p>
+                            <p>
+                                Companies dedicate a large portion of their budgets to customer service teams. When these teams don’t have to focus on answering the frequently asked questions, they can serve other customer issues in a more
+                                timely manner.
+                            </p>
+                            <h3>Earns trust</h3>
+                            <p>
+                                Information is available at the click of a button, but as we all know, information is not always true. Because of this, customers are more skeptical than ever before. They hunt for products by sifting through
+                                reviews, looking at the product on multiple websites, and doing price checking across the internet.
+                            </p>
+                            <p>If your brand seems to understand the customer’s pain point and address it through a seamless user experience, the shopper will become a loyal customer.</p>
+                            <p>
+                                One of the most common pain points is when shoppers are wondering something about a product or service and there’s no information addressing that question. The customers think to themselves, “I can’t be the
+                                only person who’s wondering this,” yet the answer is nowhere to be found. This is a surefire way to guarantee they close the window and go to your competitor’s website.
+                            </p>
+                            <p>By creating a comprehensive FAQ page you can assure customers get the answer they need and keep shopping on your site.</p>
+                            <h3>Provides new insights</h3>
+                            <p>
+                                It’s difficult to get into the head of a shopper. Some buy on impulse and others buy after thorough research. By tracking the clicks on your FAQ page you can gather insights about your product or service that
+                                you didn’t know before. You can then inform your product team of these insights. From there, the product team can make changes to improve the product or experience.
+                            </p>
+                            <p>
+                                For example, if a dog collar company’s most clicked-on FAQ is, “how do I make sure my dog doesn’t slip out of the collar?” you’ll know that people are having issues or concerns about the collar staying on.
+                                The product team then might have to create a no-slip feature to ease this fear among potential customers.
+                            </p>
+                            <h3>Drives internal page views</h3>
+                            <p>
+                                <span>
+                                    If you want your FAQ to be extremely thorough, which it should be, you can link to resources within your FAQ for your customers to find out more information. Whether you link to a blog that goes into more
+                                    detail or a product page, this content helps the shoppers get the full story before making a purchase.
+                                </span>
+                            </p>
+                            <p><span>Having all of these resources also shows that you care about your customer's happiness, and it will make them stay on pages longer and explore other pages that they may have missed otherwise. </span></p>
+                            <h3>Prevents negative reviews</h3>
+                            <p><span>When looking through negative reviews, there’s almost always one thing in common— the problem could’ve been avoided. </span></p>
+                        </div>
+                    </div>
+
+                    <div class="accordion__item">
+                        <div class="accordion__item__header">
+                            How to make an FAQ page?
+                        </div>
+
+                        <div class="accordion__item__content">
+                            <p>
+                                There are seven simple steps to make the perfect FAQ page for your business. The design of an FAQ page is crucial for an easy-to-use customer experience. Follow these steps and your customer success team will
+                                thank you. <br />
+                                <br />
+                                <img src="https://sell.g2.com/hubfs/how%20to%20make%20in%20an%20faq%20page.png" />
+                            </p>
+                            <h3>1. Determine the questions</h3>
+                            <p>
+                                If your company already exists, then either in your inbox or your head of customer service’s inbox there will be a plethora of questions to get you started. Use these as a jumping-off point and make the list
+                                of questions as long as possible. No question is a dumb one, and odds are if one person thought it, then there’s a group of people out in the world thinking it, too.
+                            </p>
+                            <p>
+                                If you are creating your business from scratch, jot down the questions that your friends, family, and investors ask about your product or service. Create a focus group and ask people to test your product or
+                                service and ask them questions about their experience.
+                            </p>
+                            <p>Make sure the questions are relevant to your specific product and service and that they could make people want to buy once they find out the answer. Always frame your questions in a positive way.</p>
+                            <h3>2. Categorize the questions</h3>
+                            <p>Determine common themes within your list of questions, and begin grouping them based on that commonality.</p>
+                            <p>Common categories include:</p>
+                            <ul>
+                                <li>Shipping and returns</li>
+                                <li>Sizing</li>
+                                <li>Products</li>
+                                <li>Payments</li>
+                                <li>Security</li>
+                                <li>Your account</li>
+                                <li>Promotions and discounts</li>
+                            </ul>
+                            <p>Sifting through a long list of random questions will only further frustrate the consumer. Categorizing all of the questions will help guide them on their search for answers.</p>
+                            <h3>3. Highlight or link the most popular questions</h3>
+                            <p>They are called frequently asked questions for a reason. Make sure that all of the questions can apply to multiple people.</p>
+                            <p>For instance, “What to do if my dog steals my underwear” would not be a good FAQ. A better FAQ would be about the product details and the quality of the fabric used to decrease the number of tears.</p>
+                            <p>
+                                After you have the most popular questions nailed down, pick no more than five questions to highlight as the most popular or top questions at the beginning of your FAQ page. Emphasizing these questions will
+                                make for a better user experience because most shoppers will just need those answers.
+                            </p>
+                            <h3>4. Include a search bar</h3>
+                            <p>
+                                This is the most helpful aspect of an FAQ page, and you will see plenty of search bars in the examples to come. Customers go to the FAQ page with a specific question in mind. Instead of making them hunt for
+                                it, have a search bar at the top of the page to save the shoppers’ time.
+                            </p>
+                            <p>Search bars also cause related keywords to pop up in the results and can be a learning opportunity for the shopper. Without a search bar, customers can become lost and frustrated with the user experience.</p>
+                            <h3>5. Align with your brand look and feel</h3>
+                            <p>It’s always strange when browsing a beautifully designed e-commerce site, and then you click on the FAQ page and it looks like a design from the ’90s.</p>
+                            <p>
+                                Of course, don’t over-design your FAQ page, but add some brand elements so that the shopper feels that they are in the same decade when they click over to it. Think about designing bullet points to align with
+                                your brand, or simply use your brand fonts. Make it feel just as important as the rest of the website because it is.
+                            </p>
+                            <h3>6. Update regularly</h3>
+                            <p>An out-of-date FAQ page can be more frustrating for shoppers than not having an FAQ at all.</p>
+                            <p>Be sure to update your FAQ page with new questions when you roll out a new product or feature.</p>
+                            <p>
+                                It’s good to look over the page quarterly to assess if any changes need to be made. Sometimes a question becomes more popular and needs to be moved to the top, or other times you may switch the payment
+                                processor and have to update those terms. No matter how big or how small the change is, make sure you reflect the changes on your FAQ page.
+                            </p>
+                            <h3>7. Track and improve</h3>
+                            <p>
+                                We talked about how the FAQ page can provide insights above, but in order to gather those insights, you must track the traffic and clicks on the page. Follow things like the order in which they clicked the
+                                questions and how they got to your FAQ page.
+                            </p>
+                            <p>
+                                All of the actions taken on your FAQ page can help inform your product strategy so that your product team can improve the product or service based on your analysis of the page. Also looping in the software
+                                engineers is a good idea because they can alter the user experience based on the insights you gather.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="accordion__item">
+                        <div class="accordion__item__header">
+                            What are the most frequently asked questions?
+                        </div>
+
+                        <div class="accordion__item__content">
+                            <p>
+                                A good FAQ is general enough to address many issues. There are questions that just about every company answers on their FAQ page, so if you’re struggling to get started use these are your starting point. If
+                                they’re relevant to your company, of course.
+                            </p>
+                            <p><img src="https://sell.g2.com/hubfs/most%20frequently%20asked%20faqs.png" /></p>
+                        </div>
+                    </div>
+                </div>
+                <!-- id accordion end -->
+            </div>
+        </main>
+    </div>
+
+    <div id="Category2" class="w3-container category w3-animate-opacity">
+        <main>
+            <div class="container">
+                <div class="accordion">
+                    <div class="accordion__item">
+                        <div class="accordion__item__header">
+                            How to answer your FAQs?
+                        </div>
+
+                        <div class="accordion__item__content">
+                            <p>
+                                When crafting the answers to your FAQs, involve someone from PR. It’s unlikely you have an entire PR team on your staff, which is OK, but there are plenty of freelance PR specialists who can give input while
+                                writing these answers. It will highly benefit you to consider hiring one for a week or two.
+                            </p>
+                            <p>Some of these questions could cause you to expose shortcomings of your product or service, so it is imperative that you position these answers in a positive light while remaining truthful.</p>
+                            <p>It’s not as easy as it sounds. For example...</p>
+                            <p><strong>FAQ:</strong> How much sugar is in D’s Energy drinks?</p>
+                            <p><strong>Don’t say:</strong> There are 55 grams of sugar per serving, and the daily recommendation for sugar intake is 45 grams.</p>
+                            <p>
+                                <strong>Say: </strong>There are 55 grams per serving. Maintaining a healthy and well-balanced lifestyle is important to D’s Energy Drinks. Our beverages are perfect for athletes and those who maintain an
+                                active lifestyle. Check with your doctor before consuming if you have dietary concerns.
+                            </p>
+                            <p>Additionally, write your questions from the customer’s perspective and your answers from the business’s perspective.</p>
+                            <p>For instance,</p>
+                            <p><strong>Question:</strong> How do I turn on my TV?</p>
+                            <p><strong>Answer:</strong> We provide a remote control with each of our TVs. Click the ON button and you’ll be good to go!</p>
+                        </div>
+                    </div>
+
+                    <div class="accordion__item">
+                        <div class="accordion__item__header">
+                            Where to put your FAQ page?
+                        </div>
+
+                        <div class="accordion__item__content">
+                            <p>
+                                The placement of your FAQ page depends on the structure of your website. After putting so much work into your FAQ page, you don't want to hide it. Make sure your FAQ page is easy to find because when people
+                                are hunting for answers, they don't want to jump through hoops.
+                            </p>
+                            <p>
+                                Consider putting your FAQ page on the top navigation of your website, or place it on a pull-down menu under the "Contact Us" tab. Don't try to be fancy and put it in an uncommon location, just stick to where
+                                others are putting it.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Another Category Starts Here -->
+
+            <div id="Category3" class="w3-container category w3-animate-opacity">
+                <main>
+                    <div class="container">
+                        <div class="accordion">
+                            <div class="accordion__item">
+                                <div class="accordion__item__header">
+                                    First Question?
+                                </div>
+
+                                <div class="accordion__item__content">
+                                    <p>Answer Paragraph</p>
+                                </div>
+                            </div>
+
+                            <div class="accordion__item">
+                                <div class="accordion__item__header">
+                                    Second Question?
+                                </div>
+
+                                <div class="accordion__item__content">
+                                    <p>Answer Paragraph</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Another Category Ends Here -->
+
+                    <!-- Script for Tabs. No Need to Edit This. -->
+                    <script>
+                        // Tabs
+                        function openCategory(evt, CategoryName) {
+                            var i;
+                            var x = document.getElementsByClassName("category");
+                            for (i = 0; i < x.length; i++) {
+                                x[i].style.display = "none";
+                            }
+                            var activebtn = document.getElementsByClassName("testbtn");
+                            for (i = 0; i < x.length; i++) {
+                                activebtn[i].className = activebtn[i].className.replace(" w3-theme-dark", "");
+                            }
+                            document.getElementById(CategoryName).style.display = "block";
+                            evt.currentTarget.className += " w3-theme-dark";
+                        }
+
+                        var mybtn = document.getElementsByClassName("testbtn")[0];
+                        mybtn.click();
+                    </script>
+
+                    <!-- jQuery -->
+                    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+
+                    <script>
+                        if ($(".accordion__item__header").length > 0) {
+                            var active = "active";
+                            $(".accordion__item__header").click(function () {
+                                $(this).toggleClass(active);
+                                $(this).next("div").slideToggle(200);
+                            });
+                        }
+                    </script>
+
+                    <script type="text/javascript" src="https://translate.google.com/translate_a/element.js?cb=google_translate"></script>
+                    <script>
+                        function google_translate() {
+                            var opt = {
+                                layout: google.translate.TranslateElement.InlineLayout.SIMPLE,
+                                pageLanguage: "en",
+                            };
+                            new google.translate.TranslateElement(opt, "translation");
+                        }
+
+                        /*  
+Display the scrollable list of languages. 
+Related to the size of current browser. 
+*/
+                        addEventListener("load", function () {
+                            if (document.querySelector(".goog-te-menu-frame")) {
+                                document.getElementById("translation").addEventListener("click", function () {
+                                    if (this.id === "translation") scrollableLanguagesList();
+                                });
+                                addEventListener("resize", function () {
+                                    if ("none" !== document.querySelector(".goog-te-menu-frame").style.display) scrollableLanguagesList();
+                                });
+                            }
+                        });
+
+                        function scrollableLanguagesList() {
+                            var iframe = document.querySelector(".goog-te-menu-frame"),
+                                doc = iframe.contentWindow.document,
+                                div = doc.body.children[0],
+                                table = div.children[0],
+                                width = div.dataset.width || parseInt(div.style.width),
+                                rect,
+                                diff;
+
+                            if (!div.dataset.width) div.dataset.width = width;
+
+                            if (innerWidth < width) {
+                                rect = table.getBoundingClientRect();
+                                width = rect.right - rect.left;
+                                diff = width - innerWidth;
+
+                                div.style.width = width - diff - 24 + "px";
+                                div.style.padding = "4px 0 1em 4px";
+                                div.style.overflowX = "scroll";
+                            } else {
+                                div.style.width = "auto";
+                                div.style.padding = "4px";
+                                div.style.overflowX = "visible";
+                            }
+
+                            rect = div.getBoundingClientRect();
+                            iframe.style.width = rect.right - rect.left + "px";
+                            iframe.style.height = rect.bottom - rect.top + "px";
+                        }
+                    </script>
+
+                    <script type="text/javascript">
+                        $(document).ready(function () {
+                            translationTooltipsDisable();
+                        });
+
+                        function translationTooltipsDisable() {
+                            //Override google's functions
+                            _tipon = function () {
+                                /*Don't display the tooltip*/
+                            };
+                            _tipoff = function () {
+                                /*Don't hide the tooltip*/
+                            };
+                        }
+                    </script>
+                </main>
+            </div>
+        </main>
+    </div>
+</div>
+
+  </section>
+  <!-- end section3 -->
+ <style>
+ul {
+    margin: 0px;
+    padding: 0px;
+}
+.footer-section {
+  background: #151414;
+  position: relative;
+}
+.footer-cta {
+  border-bottom: 1px solid #373636;
+}
+.single-cta i {
+  color: #ff5e14;
+  font-size: 30px;
+  float: left;
+  margin-top: 8px;
+}
+.cta-text {
+  padding-left: 15px;
+  display: inline-block;
+}
+.cta-text h4 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 2px;
+}
+.cta-text span {
+  color: #757575;
+  font-size: 15px;
+}
+.footer-content {
+  position: relative;
+  z-index: 2;
+}
+.footer-pattern img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 330px;
+  background-size: cover;
+  background-position: 100% 100%;
+}
+.footer-logo {
+  margin-bottom: 30px;
+}
+.footer-logo img {
+    max-width: 200px;
+}
+.footer-text p {
+  margin-bottom: 14px;
+  font-size: 14px;
+      color: #7e7e7e;
+  line-height: 28px;
+}
+.footer-social-icon span {
+  color: #fff;
+  display: block;
+  font-size: 20px;
+  font-weight: 700;
+  font-family: 'Poppins', sans-serif;
+  margin-bottom: 20px;
+}
+.footer-social-icon a {
+  color: #fff;
+  font-size: 16px;
+  margin-right: 15px;
+}
+.footer-social-icon i {
+  height: 40px;
+  width: 40px;
+  text-align: center;
+  line-height: 38px;
+  border-radius: 50%;
+}
+.facebook-bg{
+  background: #3B5998;
+}
+.twitter-bg{
+  background: #55ACEE;
+}
+.google-bg{
+  background: #DD4B39;
+}
+.footer-widget-heading h3 {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  position: relative;
+}
+.footer-widget-heading h3::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+  height: 2px;
+  width: 50px;
+  background: #ff5e14;
+}
+.footer-widget ul li {
+  display: inline-block;
+  float: left;
+  width: 50%;
+  margin-bottom: 12px;
+}
+.footer-widget ul li a:hover{
+  color: #ff5e14;
+}
+.footer-widget ul li a {
+  color: #878787;
+  text-transform: capitalize;
+}
+.subscribe-form {
+  position: relative;
+  overflow: hidden;
+}
+.subscribe-form input {
+  width: 100%;
+  padding: 14px 28px;
+  background: #2E2E2E;
+  border: 1px solid #2E2E2E;
+  color: #fff;
+}
+.subscribe-form button {
+    position: absolute;
+    right: 0;
+    background: #ff5e14;
+    padding: 13px 20px;
+    border: 1px solid #ff5e14;
+    top: 0;
+}
+.subscribe-form button i {
+  color: #fff;
+  font-size: 22px;
+  transform: rotate(-6deg);
+}
+.copyright-area{
+  background: #202020;
+  padding: 25px 0;
+}
+.copyright-text p {
+  margin: 0;
+  font-size: 14px;
+  color: #878787;
+}
+.copyright-text p a{
+  color: #ff5e14;
+}
+.footer-menu li {
+  display: inline-block;
+  margin-left: 20px;
+}
+.footer-menu li:hover a{
+  color: #ff5e14;
+}
+.footer-menu li a {
+  font-size: 14px;
+  color: #878787;
+}
+ </style>
+  <footer class="footer-section">
+        <div class="container">
+            <div class="footer-cta pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            
+                            <div class="cta-text">
+                                <h4>Find us</h4>
+                                <span>1010 Avenue, sw 54321, chandigarh</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                           
+                            <div class="cta-text">
+                                <h4>Call us</h4>
+                                <span>9876543210 0</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-md-4 mb-30">
+                        <div class="single-cta">
+                            
+                            <div class="cta-text">
+                                <h4>Mail us</h4>
+                                <span>mail@info.com</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-content pt-5 pb-5">
+                <div class="row">
+                    <div class="col-xl-4 col-lg-4 mb-50">
+                        <div class="footer-widget">
+                            <div class="footer-logo">
+                                <a href="index.html"><img src="img/logo-removebg-preview1.png" class="img-fluid" alt="logo"></a>
+                            </div>
+                            <div class="footer-text">
+                                <p>Lorem ipsum dolor sit amet, consec tetur adipisicing elit, sed do eiusmod tempor incididuntut consec tetur adipisicing
+                                elit,Lorem ipsum dolor sit amet.</p>
+                            </div>
+                            <!----<div class="footer-social-icon">
+                                <span>Follow us</span>
+                                <a href="#"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                                <a href="#"><i class="fab fa-twitter twitter-bg"></i></a>
+                                <a href="#"><i class="fab fa-google-plus-g google-bg"></i></a>
+                            </div>--->
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Information</h3>
+                            </div>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">about</a></li>
+                                <li><a href="#">services</a></li>
+                                <li><a href="#">portfolio</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Our Services</a></li>
+                                <li><a href="#">Expert Team</a></li>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">Latest News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                        <div class="footer-widget">
+                            <div class="footer-widget-heading">
+                                <h3>Resources</h3>
+                            </div>
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">about</a></li>
+                                <li><a href="#">services</a></li>
+                                <li><a href="#">portfolio</a></li>
+                                <li><a href="#">Contact</a></li>
+                                <li><a href="#">About us</a></li>
+                                <li><a href="#">Our Services</a></li>
+                                <li><a href="#">Expert Team</a></li>
+                                <li><a href="#">Contact us</a></li>
+                                <li><a href="#">Latest News</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                        <div class="copyright-text">
+                            <p>Copyright &copy; 2013, All Right Reserved <a href="https://codepen.io/anupkumar92/">Kwaga Ltd</a></p>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                        <div class="footer-menu">
+                            <ul>
+                                <li><a href="#">Home</a></li>
+                                <li><a href="#">Terms</a></li>
+                                <li><a href="#">Privacy</a></li>
+                                <li><a href="#">Policy</a></li>
+                                <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+  <!-- end footer -->
+  <div class="dmtop">Scroll to Top</div>
+
+  <!-- JavaScript Libraries -->
+  <script src="lib/jquery/jquery.min.js"></script>
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+  <script src="lib/php-mail-form/validate.js"></script>
+  <script src="lib/prettyphoto/js/prettyphoto.js"></script>
+  <script src="lib/isotope/isotope.min.js"></script>
+  <script src="lib/hover/hoverdir.js"></script>
+  <script src="lib/hover/hoverex.min.js"></script>
+  <script src="lib/unveil-effects/unveil-effects.js"></script>
+  <script src="lib/owl-carousel/owl-carousel.js"></script>
+  <script src="lib/jetmenu/jetmenu.js"></script>
+  <script src="lib/animate-enhanced/animate-enhanced.min.js"></script>
+  <script src="lib/jigowatt/jigowatt.js"></script>
+  <script src="lib/easypiechart/easypiechart.min.js"></script>
+
+  <!-- Template Main Javascript File -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
