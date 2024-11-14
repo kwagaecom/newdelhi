@@ -294,18 +294,41 @@ socialShareButtons.forEach(function (button) {
         </div>
 
         <!-- Right Side: Contact Info -->
-       <div class="header_contact-info" style="color:#FF0000;">
- 
-  <a href="tel:+123456789">
-    <i class="fas fa-phone"></i> <span  class="badge rounded-pill bg-success">+91 8797529661,+91 9560713801</span>
-  </a>
-<div class="location-container">
-  <a href="https://www.google.com/maps?q=303B,+Royal+Residency,+33+Feet+Road,+Mandi,+Delhi,+Delhi+110047" target="_blank" class="location-link">
-    <i class="fas fa-map-marker-alt location-icon"></i> 
-    <span  class="badge rounded-pill bg-success">Krafty Web Developement</span>
-    <span class="badge rounded-pill bg-danger">- 303B, Royal Residency, 33 Feet Road, Mandi, Delhi, Delhi 110047</span>
-  </a>
+<div class="header_contact-info" style="color: #008000; font-size: 1rem;">
+  <div style="display: flex; flex-direction: column; align-items: start; width: 100%;">
+    <a href="tel:+123456789" style="text-decoration: none;  margin-bottom: 5px;">
+      <i class="fas fa-phone"></i> 
+      <span style="display: inline-block; border: 1px solid #008000; border-radius: 50px; padding: 5px 10px; white-space: nowrap;">
+        +91 8797529661, +91 9560713801
+      </span>
+    </a>
+  </div>
+
+  <div style="margin-top: 5px; width: 100%;">
+    <a href="https://www.google.com/maps?q=303B,+Royal+Residency,+33+Feet+Road,+Mandi,+Delhi,+Delhi+110047" 
+       target="_blank" style="text-decoration: none; ">
+      <i class="fas fa-map-marker-alt"></i> 
+      <span style="display: block; border: 1px solid #008000; border-radius: 50px; padding: 5px 10px; margin-top: 5px;">
+        Krafty Web Development
+      </span>
+      <span style="display: block; border: 1px solid #008000; border-radius: 50px; padding: 5px 10px; margin-top: 5px;">
+        - 303B, Royal Residency, 33 Feet Road, Mandi, Delhi, Delhi 110047
+      </span>
+    </a>
+  </div>
 </div>
+
+<!-- Inline media query for better mobile responsiveness -->
+<style>
+  @media (min-width: 576px) {
+    .header_contact-info div > a span {
+      display: inline-block !important;
+      margin-top: 0 !important;
+    }
+  }
+</style>
+
+
 
 <style>
   .location-container {
@@ -596,54 +619,79 @@ margin-right: 100px; /* Space between buttons */
 
 
 
+<style>
+    /* Media query for mobile screens */
+    @media (max-width: 576px) {
+        .modal-dialog {
+            max-width: 100%; /* Make modal full-width on mobile */
+            margin: 10px; /* Add margin for slight padding on edges */
+        }
+        .modal-body h1 {
+            font-size: 1.5rem; /* Adjust heading font size */
+        }
+        .modal-body p, .modal-body a {
+            font-size: 1rem; /* Adjust paragraph and link font size */
+        }
+        .contact-info span {
+            font-size: 0.9rem; /* Smaller font for contact details */
+        }
+    }
+
+    /* Make modal body scrollable if content overflows */
+    .modal-body {
+        max-height: 80vh;
+        overflow-y: auto;
+    }
+</style>
+
 <div id="myModal" class="modal fade" role="dialog">
     <div class="modal-dialog modal-lg">
-        <!-- Modal content-->
+        <!-- Modal content -->
         <div class="modal-content">
             <div class="modal-header">
                 <button type="button" class="close" data-dismiss="modal">&times;</button>
             </div>
             <div class="modal-body text-center">
-                 <h1>Hurry Up! <strong>Business Owners</strong></h1>
-  
-  <section>
-        <p>Welcome to <a href="https://kraftywebdesign.com/" target="_blank">Krafty Web Design</a>, a leading <strong>best web development company in Delhi</strong> , Whether you are looking for <strong>best website design service in new delhi</strong> or  <strong>best graphic design service in new delhi</strong> or .<strong>best professional website design service in new delhi</strong>or<strong>best e-commerce website development service in new delhi</strong>  We are a  <strong>premier web development firm</strong> dedicated to <strong>SEO-friendly websites</strong> leverage with<strong>Digital marketing services</strong>  that enhance your business’s online visibility.</p>
+                <h1>Hurry Up! <strong>Business Owners</strong></h1>
 
-   
-        <p>We offers  <strong> Affordable web design </strong>,<strong> Responsive web design </strong>,<strong> Mobile-friendly websites </strong> ,We also offers <strong> CMS web development </strong>,<strong> Web application development </strong>,<strong> Website maintenance services </strong>
+                <section>
+                    <p>Welcome to <a href="https://kraftywebdesign.com/" target="_blank">Krafty Web Design</a>, a leading <strong>web development company in Delhi</strong>. Whether you're looking for the <strong>best website design service</strong>, <strong>graphic design service</strong>, or <strong>e-commerce website development</strong> in New Delhi, we are here to help. As a <strong>premier web development firm</strong>, we specialize in <strong>SEO-friendly websites</strong> supported by <strong>digital marketing services</strong> to boost your business’s online visibility.</p>
 
-        
-    </section>
- <p>For More Visit Our <b>Official Channels</b>  Or Our <b><a href="https://www.linkedin.com/in/kuldip-ray-311139179">LinkedIn Page</a></b>.</p>
-     <div style="display: flex; justify-content: center; gap: 10px; align-items: center;">
-  <b>
-    <a href="https://www.linkedin.com/in/kuldip-ray-311139179/" class="nav-link scrollto active">
-      <i class="bx bxl-linkedin"></i> LinkedIn
-    </a>
-  </b>
-  <b>
-    <a href="https://www.justdial.com/jdmart/Patna/Kwaga-Web-Dev--Ramganj/0612PX612-X612-240212130918-R6C4_BZDET/catalogue?ref=auto&searchfrom=auto|home" class="nav-link scrollto active">
-      <i class="fa fa-phone"></i> Justdial
-    </a>
-  </b>
-  <b>
-    <a href="https://www.upwork.com/freelancers/~019b0f2ef229a88c6b?viewMode=1" class="nav-link scrollto active">
-      <i class="fa fa-briefcase"></i> Upwork
-    </a>
-  </b>
-</div>
+                    <p>We offer <strong>affordable web design</strong>, <strong>responsive web design</strong>, and <strong>mobile-friendly websites</strong>. Our services also include <strong>CMS web development</strong>, <strong>web application development</strong>, and <strong>website maintenance</strong>.</p>
+                </section>
 
-        <div class="contact-info">
-        <p>For Your Reference, Our Official Contact Details Are As Follows:</p>
-      <span class="badge rounded-pill bg-success">Phone Number:+91 7838090428,+91 9560713801</span>
-      <span class="badge rounded-pill bg-warning text-dark"><a href="mailto:service@.kraftywebdesign.com">service@kraftywebdesign.com</a></span>
-       
-    </div>
-        
+                <p>For more, visit our <b>official channels</b> or our <b><a href="https://www.linkedin.com/in/kuldip-ray-311139179">LinkedIn Page</a></b>.</p>
+
+                <div style="display: flex; justify-content: center; gap: 10px; align-items: center;">
+                    <b>
+                        <a href="https://www.linkedin.com/in/kuldip-ray-311139179/" class="nav-link scrollto active">
+                            <i class="bx bxl-linkedin"></i> LinkedIn
+                        </a>
+                    </b>
+                    <b>
+                        <a href="https://www.justdial.com/jdmart/Patna/Kwaga-Web-Dev--Ramganj/0612PX612-X612-240212130918-R6C4_BZDET/catalogue?ref=auto&searchfrom=auto|home" class="nav-link scrollto active">
+                            <i class="fa fa-phone"></i> Justdial
+                        </a>
+                    </b>
+                    <b>
+                        <a href="https://www.upwork.com/freelancers/~019b0f2ef229a88c6b?viewMode=1" class="nav-link scrollto active">
+                            <i class="fa fa-briefcase"></i> Upwork
+                        </a>
+                    </b>
+                </div>
+
+                <div class="contact-info">
+                    <p>For your reference, our official contact details are as follows:</p>
+                    <span class="badge rounded-pill bg-success">Phone: +91 7838090428, +91 9560713801</span>
+                    <span class="badge rounded-pill bg-warning text-dark">
+                        <a href="mailto:service@kraftywebdesign.com">service@kraftywebdesign.com</a>
+                    </span>
+                </div>
             </div>
         </div>
     </div>
 </div>
+
 
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -3423,21 +3471,21 @@ body{
     </div>
   </div>
   <div class="form-group">
-    <label>Select the services you are interested in:</label><br>
+    <label>Please select a service:</label><br>
     <div>
-      <input type="checkbox" name="Service" id="seoOption" value="SEO">
+      <input type="radio" name="Service" id="seoOption" value="SEO" required>
       <label for="seoOption">SEO</label>
     </div>
     <div>
-      <input type="checkbox" name="Service" id="digitalMarketingOption" value="Digital Marketing">
+      <input type="radio" name="Service" id="digitalMarketingOption" value="Digital Marketing">
       <label for="digitalMarketingOption">Digital Marketing</label>
     </div>
     <div>
-      <input type="checkbox" name="Service" id="youtubeVideoOption" value="YouTube Video">
+      <input type="radio" name="Service" id="youtubeVideoOption" value="YouTube Video">
       <label for="youtubeVideoOption">YouTube Video</label>
     </div>
     <div>
-      <input type="checkbox" name="Service" id="emailMarketingOption" value="Email Marketing">
+      <input type="radio" name="Service" id="emailMarketingOption" value="Email Marketing">
       <label for="emailMarketingOption">Email Marketing</label>
     </div>
   </div>
@@ -3671,10 +3719,9 @@ ul {
 }
 
  </style>
-<h5 align="center"style="background-color: #5bc0de; color:#FFFF00;">Our Regional Branch</h5>
-
+<h5 align="center">Our Regional Branch</h5>
 <div class="row text-center"style="background-image: url('https://media.istockphoto.com/id/1330287712/photo/india-map-links-with-futuristic-hud-virtual-interface-background-detail.webp?a=1&b=1&s=612x612&w=0&k=20&c=wshnJmCBlUcC0VxuZj4Mpwaqsb_qsL7YQWc6eYlpTNo='); background-size: cover; background-position: center; position: relative;">
-<div class="col-sm-4 col-md-3 mb-2">
+  <div class="col-sm-4 col-md-3 mb-2">
     <a href="#"><span class="badge rounded-pill bg-dark"><i class="fa fa-map-marker-alt"></i> Lucknow</span></a>
   </div>
   <div class="col-sm-4 col-md-3 mb-2">
@@ -3791,7 +3838,6 @@ ul {
   <div class="col-sm-4 col-md-3 mb-2">
     <a href="#"><span class="badge rounded-pill bg-dark"><i class="fa fa-map-marker-alt"></i> Nanital </span></a>
   </div>
-  
 </div>
 <h5 align="center"style="background-color: #5bc0de; color: #000080;">Our Overseas Branch</h5>
 <div class="row text-center"style="background-image: url('https://media.istockphoto.com/id/1402430796/photo/blue-money-business-graph-finance-chart-diagram-on-economy-3d-coin-background-with-growth.webp?a=1&b=1&s=612x612&w=0&k=20&c=gD4u7W06rOv5JzQfBPAuIbFxFIJ6Z2v851LWZdHmNRY='); background-size: cover; background-position: center; position: relative;">
