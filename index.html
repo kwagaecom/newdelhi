@@ -3412,64 +3412,79 @@ body{
         <h1 class="div-heading display-4">Contact Us</h1>
       </div>
     </div>
-    <div class="row">
-      <div class="col-md-6">
-<form id="contactForm">
-  <div class="form-group">
-    <input type="text" class="form-control" name="Name" id="exampleInputName" 
-           placeholder="Your Full Name..." aria-label="Full Name" autocomplete="name" required>
-  </div>
-  <div class="form-group">
-    <input type="email" name="Email" class="form-control" id="exampleInputEmail1" 
-           aria-label="Email Address" placeholder="Your Email Address..." autocomplete="email" required>
-  </div>
-
-  <div class="form-group">
-    <label>Please select Web Service:</label><br>
-    <div>
-      <input type="radio" name="Service" id="basic" value="Basic" required>
-      <label for="webservice">Basic</label>
-    </div>
-    <div>
-      <input type="radio" name="Service" id="standard" value="Standard">
-      <label for="webservice">Standard</label>
-    </div>
-    <div>
-      <input type="radio" name="Service" id="youtubeVideoOption" value="YouTube Video">
-      <label for="webservice">Premium</label>
+<div class="container" style="background-image: url('https://media.istockphoto.com/id/1338907882/photo/web-contact-us-icons-on-blue-background-contact-us-cutomer-support-concept-copy-space-website.webp?a=1&b=1&s=612x612&w=0&k=20&c=C3DupJppDEVsT_7acAruvuIA7tgHcMoSvUrSR-OswCk='); background-size: cover; background-position: center; position: relative; padding: 20px; border-radius: 10px;">
+  <div class="row">
+    <div class="col-sm text-center">
+      <h1 class="div-heading display-4 text-white">Contact Us</h1>
     </div>
   </div>
-  <div class="form-group">
-    <label>Please select a service:</label><br>
-    <div>
-      <input type="radio" name="Service" id="seoOption" value="SEO" required>
-      <label for="seoOption">SEO</label>
-    </div>
-    <div>
-      <input type="radio" name="Service" id="digitalMarketingOption" value="Digital Marketing">
-      <label for="digitalMarketingOption">Digital Marketing</label>
-    </div>
-    <div>
-      <input type="radio" name="Service" id="youtubeVideoOption" value="YouTube Video">
-      <label for="youtubeVideoOption">YouTube Video</label>
-    </div>
-    <div>
-      <input type="radio" name="Service" id="emailMarketingOption" value="Email Marketing">
-      <label for="emailMarketingOption">Email Marketing</label>
+  <div class="row justify-content-center">
+    <div class="col-md-6">
+      <form id="contactForm">
+        <!-- Full Name -->
+        <div class="form-group">
+          <input type="text" class="form-control" name="Name" id="exampleInputName" 
+                 placeholder="Your Full Name..." aria-label="Full Name" autocomplete="name" required>
+        </div>
+        
+        <!-- Email -->
+        <div class="form-group">
+          <input type="email" name="Email" class="form-control" id="exampleInputEmail1" 
+                 placeholder="Your Email Address..." aria-label="Email Address" autocomplete="email" required>
+        </div>
+        
+        <!-- Web Service Selection -->
+        <div class="form-group">
+          <label class="text-white">Please select a Web Service:</label><br>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" name="WebService" id="basic" value="Basic" required>
+            <label for="basic" class="form-check-label text-white">Basic</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" name="WebService" id="standard" value="Standard">
+            <label for="standard" class="form-check-label text-white">Standard</label>
+          </div>
+          <div class="form-check">
+            <input type="radio" class="form-check-input" name="WebService" id="premium" value="Premium">
+            <label for="premium" class="form-check-label text-white">Premium</label>
+          </div>
+        </div>
+        
+        <!-- Additional Services (Multiple Selections) -->
+        <div class="form-group">
+          <label class="text-white">Please select Additional Services:</label><br>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" name="AdditionalService[]" id="seoOption" value="SEO">
+            <label for="seoOption" class="form-check-label text-white">SEO</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" name="AdditionalService[]" id="digitalMarketingOption" value="Digital Marketing">
+            <label for="digitalMarketingOption" class="form-check-label text-white">Digital Marketing</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" name="AdditionalService[]" id="youtubeVideoOption" value="YouTube Video">
+            <label for="youtubeVideoOption" class="form-check-label text-white">YouTube Video</label>
+          </div>
+          <div class="form-check">
+            <input type="checkbox" class="form-check-input" name="AdditionalService[]" id="emailMarketingOption" value="Email Marketing">
+            <label for="emailMarketingOption" class="form-check-label text-white">Email Marketing</label>
+          </div>
+        </div>
+        
+        <!-- Message -->
+        <div class="form-group">
+          <textarea class="form-control" name="Message" aria-label="Message" placeholder="Your Message..." required></textarea>
+        </div>
+        
+        <!-- Submit Button -->
+        <div class="text-center">
+          <button type="submit" class="btn btn-warning btn-lg" aria-label="Submit Form">Submit</button>
+        </div>
+      </form>
     </div>
   </div>
+</div>
 
-  <div class="form-group">
-    <textarea class="form-control" name="Message" aria-label="Message" 
-              placeholder="Your Message..." required></textarea>
-  </div>
-  
-  <button type="submit" class="btn btn-warning btn-lg btn-block" aria-label="Submit Form">Submit</button>
-</form>
-
-
-
-      </div>
  
 
 <div class="col-md-6">
