@@ -232,13 +232,12 @@ socialShareButtons.forEach(function (button) {
        <div class="header_contact-info" style="color:#FF0000;">
  
    <a href="tel:+123456789">
-    <i class="fas fa-phone"></i> <span  class="badge rounded-pill bg-success">+91 8797529661,+91 9560713801</span>
+    <i class="fas fa-phone"></i> <span  class="badge rounded-pill bg-success">+91 8797529661</span>
   </a>
 <div class="location-container">
-  <a href="https://www.google.com/maps?q=303B,+Royal+Residency,+33+Feet+Road,+Mandi,+Delhi,+Delhi+110047" target="_blank" class="location-link">
-    <i class="fas fa-map-marker-alt location-icon"></i> 
-    <span  class="badge rounded-pill bg-success">Krafty Web Developement</span>
-    <span class="badge rounded-pill bg-danger">- 303B, Royal Residency, 33 Feet Road, Mandi, Delhi, Delhi 110047</span>
+   <a href="https://www.justdial.com/jdmart/Patna/Kwaga-Web-Dev--Ramganj/0612PX612-X612-240212130918-R6C4_BZDET/catalogue?ref=auto&searchfrom=auto|home" target="_blank">
+    <i class="fas fa-map-marker-alt"></i>   <span class="badge rounded-pill bg-success">Web Next Studio</span>
+    <span class="badge rounded-pill bg-danger">Ramganj, Bihar, Patna</span>
   </a>
 </div>
 
@@ -255,8 +254,7 @@ socialShareButtons.forEach(function (button) {
 </div>
 <div class="button-container">
           <a href="service-design.html"><button type="button" class="btn btn-success">Service</button></a>
-          <a href="portfolio.html"><button type="button" class="btn btn-danger">Portfolio</button></a>
-</div>
+          <a href="advertisement .html"><button type="button" class="btn btn-danger">Ad Service</button></a>
 <div class="button-container">
            <a href="carieer.html"><button type="button" class="btn btn-dark">Career</button></a>
           <a href="appointement.html"><button type="button" class="btn btn-info">Appointment</button></a>
@@ -269,9 +267,7 @@ socialShareButtons.forEach(function (button) {
          <a href="service-design.html"><button type="button" class="btn btn-warning">Service Design</button></a>
           <a href="developement.html"><button type="button" class="btn btn-success">WebDevelopement</button></a>
 </div>
-<div class="button-container">
-          <a href="advertisement .html"><button type="button" class="btn btn-danger">Ad Service</button></a>
-</div>
+
           
 </div>
              
@@ -439,18 +435,7 @@ margin-right: 100px; /* Space between buttons */
         justify-content: center;
         padding: 48px;
     }
-    .formbold-form-wrapper {
-        margin: 0 auto;
-        max-width: 550px;
-        width: 100%;
-        background: white;
-        background-image: url('https://res.cloudinary.com/dqifboxk5/image/upload/v1686209968/contact-us-2_y8zzx7.jpg'); /* Replace with your image URL */
-        background-size: cover;
-        background-position: center;
-        padding: 20px;
-        border-radius: 10px;
-        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    }
+    
     .formbold-form-label {
         display: block;
         font-weight: 500;
@@ -538,23 +523,38 @@ margin-right: 100px; /* Space between buttons */
     }
     </style>
 
-<div class="formbold-main-wrapper">
+<div class="formbold-main-wrapper"style="background-image: url('https://media.istockphoto.com/id/1371339413/photo/co-working-team-meeting-concept-businessman-using-smart-phone-and-digital-tablet-and-laptop.webp?a=1&b=1&s=612x612&w=0&k=20&c=1sB_7FQTwsnEaFaln2nJabQqdjewqVMINvEImcj6CE4='); background-size: cover; background-position: center;">
     <div class="formbold-form-wrapper">
         <form id="contactForm">
-            <div class="formbold-mb-5">
-                <label for="name" class="formbold-form-label"> Full Name </label>
+         
+
+<div class="formbold-mb-5 formbold-pt-3">
+               
+                <span align="align-items-center"class="badge bg-primary">Personal Details</span>
+                <div class="flex flex-wrap formbold--mx-3">
+                    <div class="w-full sm:w-half formbold-px-3">
+                        <div class="formbold-mb-5">
+                            
                 <input type="text" name="name" id="name" placeholder="Full Name" class="formbold-form-input" />
-            </div>
-            <div class="formbold-mb-5">
-                <label for="phone" class="formbold-form-label"> Phone Number </label>
-                <input type="text" name="phone" id="phone" placeholder="Enter your phone number" class="formbold-form-input" />
-            </div>
-            <div class="formbold-mb-5">
-                <label for="email" class="formbold-form-label"> Email Address </label>
+                        </div>
+                    </div>
+                    <div class="w-full sm:w-half formbold-px-3">
+                        <div class="formbold-mb-5">
+                           
                 <input type="email" name="email" id="email" placeholder="Enter your email" class="formbold-form-input" />
+                        </div>
+                    </div>
+                    <div class="w-full sm:w-half formbold-px-3">
+                        <div class="formbold-mb-5">
+                          
+                <input type="text" name="phone" id="phone" placeholder="Enter your phone number" class="formbold-form-input" />
+                        </div>
+                    </div>
+                    
+                </div>
             </div>
             <div class="formbold-mb-5">
-                <label for="service" class="formbold-form-label">Preferred Website Development Service</label>
+              
                 <select id="service" name="service" class="formbold-form-input" required>
                     <option value="" disabled selected>Select Your Preferred Website Development Service</option>
                     <option value="CMS Website Development Service">CMS Website Development Service</option>
@@ -567,19 +567,20 @@ margin-right: 100px; /* Space between buttons */
             <div class="flex flex-wrap formbold--mx-3">
                 <div class="w-full sm:w-half formbold-px-3">
                     <div class="formbold-mb-5 w-full">
-                        <label for="date" class="formbold-form-label"> Date </label>
+                        
                         <input type="date" name="date" id="date" class="formbold-form-input" />
                     </div>
                 </div>
                 <div class="w-full sm:w-half formbold-px-3">
                     <div class="formbold-mb-5">
-                        <label for="time" class="formbold-form-label"> Time </label>
+                        
                         <input type="time" name="time" id="time" class="formbold-form-input" />
                     </div>
                 </div>
             </div>
             <div class="formbold-mb-5 formbold-pt-3">
-                <label class="formbold-form-label formbold-form-label-2">Address Details</label>
+               <span align="align-items-center"class="badge bg-primary">Address Details</span>
+                
                 <div class="flex flex-wrap formbold--mx-3">
                     <div class="w-full sm:w-half formbold-px-3">
                         <div class="formbold-mb-5">
@@ -614,7 +615,7 @@ margin-right: 100px; /* Space between buttons */
         event.preventDefault();
 
         const formData = new FormData(event.target);
-        const email = 'kwagaecom@gmail.com';
+        const email = 'service@webnextstudios.club';
         const subject = 'Contact Form Submission';
 
         let message = "Form Submission Details:\n\n";
@@ -843,7 +844,7 @@ ul {
        <a href="index.html"><span class="badge rounded-pill bg-primary">Home</span></a>
       <a href="about.html"><span class="badge rounded-pill bg-secondary">About</button></a>
       <a href="service-design.html"><span class="badge rounded-pill bg-info">Service Design</button></a>
-      <a href="portfolio.html"><span class="badge rounded-pill bg-danger">Portfolio</button></a>
+      
       <a href="career.html"><span class="badge rounded-pill bg-dark">Career</button></a>
       <a href="appointment.html"><span class="badge rounded-pill bg-light">Appointment</button></a>
       <a href="technology.html"><span class="badge rounded-pill bg-secondary">Technology</button></a>
@@ -874,7 +875,7 @@ ul {
   <div>
     <b><i class="fas fa-phone"></i></b> +91 8797529661
     <span style="margin-left: 20px;">
-      <b><i class="fas fa-envelope"></i></b> <a href="mailto:service@kraftywebdesign.com">service@kraftywebdesign.com</a>
+      <b><i class="fas fa-envelope"></i></b> <a href="mailto:service@webnextstudios.club">service@webnextstudios.club</a>
     </span>
   </div>
 </div>
