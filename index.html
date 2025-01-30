@@ -3519,17 +3519,30 @@ body{
       margin-bottom: 30px;
     }
   </style>
+<!-- Additional Services (Multiple Selections) -->
 
+<style>
+.checkbox-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.checkbox-column {
+  width: 48%; /* Each column will take up nearly half the container width */
+}
+</style>
   <div class="container"style="background-image: url('https://media.istockphoto.com/id/1338907882/photo/web-contact-us-icons-on-blue-background-contact-us-cutomer-support-concept-copy-space-website.webp?a=1&b=1&s=612x612&w=0&k=20&c=C3DupJppDEVsT_7acAruvuIA7tgHcMoSvUrSR-OswCk='); background-size: cover; background-position: center; position: relative;">
     <div class="row">
       <div class="col-sm text-center">
         <h1 class="div-heading display-4">Contact Us</h1>
       </div>
     </div>
-
+<div class="checkbox-container">
+    <div class="checkbox-column">
   <div class="row justify-content-center">
     <div class="col-md-6">
           <form id="contactForm">
+            <div class="row">
         <!-- Full Name -->
         <div class="form-group">
           <input type="text" class="form-control" name="Name" id="exampleInputName" 
@@ -3541,7 +3554,7 @@ body{
           <input type="email" name="Email" class="form-control" id="exampleInputEmail1" 
                  placeholder="Your Email Address..." aria-label="Email Address" autocomplete="email" required>
         </div>
-        
+          </div>
         <!-- Web Service Selection -->
         <div class="form-group">
           <label class="text-white">Please select a Web Service:</label><br>
@@ -3560,25 +3573,49 @@ body{
         </div>
         
         <!-- Additional Services (Multiple Selections) -->
-        <div class="form-group">
-          <label class="text-white">Please select Additional Services:</label><br>
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" name="AdditionalService[]" id="seoOption" value="SEO">
-            <label for="seoOption" class="form-check-label text-white">SEO</label>
-          </div>
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" name="AdditionalService[]" id="digitalMarketingOption" value="Digital Marketing">
-            <label for="digitalMarketingOption" class="form-check-label text-white">Digital Marketing</label>
-          </div>
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" name="AdditionalService[]" id="youtubeVideoOption" value="YouTube Video">
-            <label for="youtubeVideoOption" class="form-check-label text-white">YouTube Video</label>
-          </div>
-          <div class="form-check">
-            <input type="checkbox" class="form-check-input" name="AdditionalService[]" id="emailMarketingOption" value="Email Marketing">
-            <label for="emailMarketingOption" class="form-check-label text-white">Email Marketing</label>
-          </div>
-        </div>
+        
+
+  <label class="text-white">Please select Additional Services:</label><br>
+  <div class="checkbox-container">
+    <div class="checkbox-column">
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" name="AdditionalService[]" id="seoOption" value="SEO">
+        <label for="seoOption" class="form-check-label text-white">SEO</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" name="AdditionalService[]" id="digitalMarketingOption" value="Digital Marketing">
+        <label for="digitalMarketingOption" class="form-check-label text-white">Digital Marketing</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" name="AdditionalService[]" id="youtubeVideoOption" value="YouTube Video">
+        <label for="youtubeVideoOption" class="form-check-label text-white">YouTube Video</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" name="AdditionalService[]" id="emailMarketingOption" value="Email Marketing">
+        <label for="emailMarketingOption" class="form-check-label text-white">Email Marketing</label>
+      </div>
+    </div>
+    <div class="checkbox-column">
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" name="AdditionalService[]" id="WebsiteOptimizationOption" value="WebsiteOptimization">
+        <label for="WebsiteOptimizationOption" class="form-check-label text-white">Website Optimization</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" name="AdditionalService[]" id="ContentMarketingOption" value="ContentMarketing">
+        <label for="ContentMarketingOption" class="form-check-label text-white">Content Marketing</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" name="AdditionalService[]" id="AffiliateMarketingOption" value="AffiliateMarketing">
+        <label for="AffiliateMarketingOption" class="form-check-label text-white">Affiliate Marketing</label>
+      </div>
+      <div class="form-check">
+        <input type="checkbox" class="form-check-input" name="AdditionalService[]" id="InfluencerMarketingOption" value="Influencer Marketing">
+        <label for="InfluencerMarketingOption" class="form-check-label text-white">Influencer Marketing</label>
+      </div>
+      </div>
+      
+      
+    </div>
         
         <!-- Message -->
         <div class="form-group">
@@ -3590,10 +3627,12 @@ body{
           <button type="submit" class="btn btn-warning btn-lg" aria-label="Submit Form">Submit</button>
         </div>
       </form>
+       </div>
+    </div>
     </div>
   </div>
 </div>
-
+ 
  
 
 <!--<div class="col-md-6">
